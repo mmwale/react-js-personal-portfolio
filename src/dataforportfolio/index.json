@@ -1,0 +1,77 @@
+{
+    "skills":[
+        {
+            "id": "1",
+            "src": "./img/front-end.png",
+            "title": "Front-End",
+            "description": "I am intermediate in using the react front-end framework as well as HTML, CSS and JavaScript."
+        },
+        {
+            "id": "2",
+            "src": "./img/back-end.png",
+            "title": "Back-End",
+            "description": "Primarily expert at Java."
+        },
+        {
+            "id": "3",
+            "src": "./img/ui-design.png",
+            "title": "UI & UX Design",
+            "description": "Primarily expert at Microsoft Windows GUI, Android and fond of Apple's GUI."
+        },
+        {
+            "id": "4",
+            "src": "./img/web-flow.png",
+            "title": "Webflow Development",
+            "description": "Still relatively new to designing, developing and modifying websites.I would reference the utilization of webflow. Its visual iteractive features gravitate me to learn more about its usages and apply it to my personal projects and expand my learning environment in the digital world."
+        }
+    ],
+    "portfolio":[
+        {
+            "id": "1",
+            "src":"./img/restaurantImgMedan.png",
+            "title":"Restaurant website",
+            "description":"Executed an academic project where i was tasked to design a dynamic restaurant website.",
+            "link":"View In Github"
+        },
+        {
+            "id": "2",
+            "src":"./img/calculator-img.png",
+            "title":"Calculator App",
+            "description":"Used HTML, JavaScript and CSS to design a website that serves as a simple scientific calculator.",
+            "link":"View In Github"
+        },
+        {
+            "id": "3",
+            "src":"./img/placeholder-image-2.png",
+            "title":"TBA",
+            "description":"TBA",
+            "link":"View In Github"
+        }
+    ],
+    "reviews":[
+        {
+            "id": "1",
+            "count": "5",
+            "src":"./img/avatar-image.png",
+            "description":"Remove the instagram link, keep the social media links professional ones. Change the image number so that you only have one professional picture. Otherwise, this is really good work. The color scheme is nice, it's calm, it's readable and not ugly! ",
+            "author_name": "Angel Tunutu",
+            "author_affiliation":"Saginaw Valley State University"
+        },
+        {
+            "id": "2",
+            "count": "5",
+            "src":"./img/avatar-image-1.png",
+            "description":"Color scheme is a bit bland. Change the images in the first two sections to something more professional in the future.",
+            "author_name": "Henry Baxter",
+            "author_affiliation":"Saginaw Valley State University"
+        },
+        {
+            "id": "3",
+            "count": "5",
+            "src":"./img/avatar-image-2.png",
+            "description":"Great presentation of material. Color scheme is a bit vibrant, could use some work.",
+            "author_name": "Rebecca Gohil",
+            "author_affiliation":"Saginaw Valley State University"
+        }
+    ]
+}
