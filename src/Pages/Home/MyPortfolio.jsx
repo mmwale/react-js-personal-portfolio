@@ -1,6 +1,6 @@
 import data from "../../dataforportfolio/index.json";
 
-export default function MyPortfolio(){
+export default function MyPortfolio(){//function of the portfolio section of the website
 return (
     <section className="portfolio--section" id="MyPortfolio">
         <div className="portfolio--container-box">
@@ -9,7 +9,7 @@ return (
                     Recent Projects
                 </p>
                 <h2 className="section--heading">
-                    MyPortfolio
+                    My Portfolio
                 </h2>
             </div>
             <div>
@@ -35,7 +35,7 @@ return (
             </div>
         </div>
         <div className="portfolio--section--container">
-            {data?.portfolio?.map((item,index) => {
+            {data?.portfolio?.map((item,index) => {//A function that calls from the index.json file to extract data. Maps the data to specific parts of the arrow function
                 return(
                 <div key={index} className="portfolio--section--card">
                     <div className="portfolio--section--img">

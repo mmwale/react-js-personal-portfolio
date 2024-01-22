@@ -1,7 +1,7 @@
 import data from "../../dataforportfolio/index.json";
 
 
-export default function MySkills(){
+export default function MySkills(){//Functions for the MySkills page of the website
     return (
 <section className="skills--section" id="mySkills">
         <div className="portfolio--container">
@@ -9,7 +9,7 @@ export default function MySkills(){
         <h2 className="skills-section-heading">My Expertise</h2>
         </div>
         <div className="skills--section--container">
-            {data?.skills?.map((item,index) => (
+            {data?.skills?.map((item,index) => (//A function that calls from the index.json file to extract data. Maps the data to specific parts of the arrow function
                 <div key={index} className="skills--section--card">
                     <div className="skills--section--img">
                         <img src={item.src} alt="Product Chain" />

@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-function Footer() {
+
+function Footer() {//footer section of the website. Contains links that redirect to the sections of the web application. These links contain properties that define the nature of traversal
+
 return (
     <footer className="footer--container">
     <div className="footer--link--container">
@@ -11,7 +13,7 @@ return (
         <div className="footer--items">
         <ul>
             <li>
-            <Link
+            <Link 
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
@@ -46,20 +48,7 @@ return (
                 to="MyPortfolio"
                 className="text-md"
             >
-                Portfolio
-            </Link>
-            </li>
-            <li>
-            <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Reviews"
-                className="text-md"
-            >
-                Reviews
+                Projects
             </Link>
             </li>
             <li>
@@ -138,7 +127,7 @@ return (
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Privacy_Policy"
+                to="Privacy Policy"
                 className="text-sm"
             >
                 Privacy Policy
@@ -151,10 +140,10 @@ return (
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Terms_of_Service"
+                to="Terms&Conditions"
                 className="text-sm"
             >
-                Terms of Service
+                Terms & Conditions
             </Link>
             </li>
             <li>
@@ -164,7 +153,7 @@ return (
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Cookies_Settings"
+                to="Cookies"
                 className="text-sm"
             >
                 Cookies Settings

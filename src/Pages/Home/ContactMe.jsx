@@ -1,19 +1,19 @@
 import emailjs from "@emailjs/browser";
 
-export default function ContactMe(){
-    const sendEmail = (em) => {
-        em.preventDefault();
-        alert("SUBMITTED!");
-        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, em.target, process.env.REACT_APP_PUBLIC_KEY);
-        em.target.reset();
+export default function ContactMe(){//Contact Me section of the website that contains a form to reach me
+    const sendEmail = (em) => {// function that collects user input from the form and send it to me through the emailjs mailsender service.
+        em.preventDefault();//enables the function to always function
+        alert("SUBMITTED!");//creates a popup once the form has been sent
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, em.target, process.env.REACT_APP_PUBLIC_KEY);//contains emailjs details that send the form details to a specific account
+        em.target.reset();//refreshes the form once the form details have been sent
     }
-    return(
+    return(//contains a form that calls the sendEmail function upon submission from the button
         <section id="Contact" className="contact--section">
             <div className="sub--title">
             <p className="sub--title">Get In Touch</p>
             <h2> Contact Me</h2>
             <p className="text-lg">
-            Ryan was here If you wish to stay in touch, enter your details below and i will respond accordingly!
+            If you wish to stay in touch, enter your details below and i will respond accordingly!
             </p>
             </div>
         <form className="contact--form--container" onSubmit={sendEmail}>

@@ -4,8 +4,8 @@ import Footer from "../Footer";
 import HeroSection from "../HeroSection";
 import MyPortfolio from "../MyPortfolio";
 import MySkills from "../MySkills";
-import Reviews from "../Reviews";
 
+//Main function that incorporates/imports all the sections of the main page as functions
 export default function Home(){
     return (
         <>
@@ -13,7 +13,6 @@ export default function Home(){
         <AboutMe/>
         <MySkills/>
         <MyPortfolio/>
-        <Reviews/>
         <ContactMe/>
         <Footer/>
         </>
